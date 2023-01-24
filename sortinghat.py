@@ -2,10 +2,13 @@ gryffindor = int(0)
 ravenclaw = int(0)
 hufflepuff = int(0)
 slytherin = int(0)
+<<<<<<< HEAD
 print('              ===================================')
 print('              --- ¿Qué casa de Hogwarts eres? ---')
 print('              ===================================')
 print('    --- ¡Responde a las siguientes preguntas y AVERÍGUALO! ---')
+=======
+>>>>>>> 35f3bc1f5165f1ef0c7f4366505b74c47a528523
 p1= int(input('1º ¿Qué prefieres, el amanecer o el atardecer?\n 1) Amanecer\n 2) Atardecer\n : '))
 if p1 ==1:
     gryffindor += 1
@@ -40,6 +43,7 @@ elif p3==4:
 else:
     print('¡Error!')
 print('¡Enhorabuena tu casa es:')
+<<<<<<< HEAD
 if gryffindor> hufflepuff and gryffindor>slytherin and gryffindor>ravenclaw:
     print('🦁 Gryffindor!')
 elif hufflepuff>gryffindor and hufflepuff>ravenclaw and hufflepuff> slytherin:
@@ -54,3 +58,13 @@ else:
     print('🦡 Hufflepuff: ', hufflepuff)
     print('🦅 Ravenclaw: ', ravenclaw)
     print('🐍 Slytherin: ', slytherin)
+=======
+if gryffindor>= hufflepuff and gryffindor>=slytherin and gryffindor>=ravenclaw:
+    print('🦁 Gryffindor!')
+if hufflepuff>gryffindor and hufflepuff>ravenclaw and hufflepuff> slytherin:
+    print('🦡 Hufflepuff!')
+if ravenclaw> gryffindor and ravenclaw>hufflepuff and ravenclaw>slytherin:
+    print('🦅 Ravenclaw!')
+if slytherin>gryffindor and slytherin>hufflepuff and slytherin>ravenclaw:
+    print('🐍 Slytherin!')
+>>>>>>> 35f3bc1f5165f1ef0c7f4366505b74c47a528523
